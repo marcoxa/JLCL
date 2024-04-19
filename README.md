@@ -48,7 +48,7 @@ up in module `TopModule`; but now I can write the following.
     ### file.jl ends here.
 ```
 
-The macro `@in_module` simply yiels `true` if the "current" module is
+The macro `@in_module` simply yields `true` if the "current" module is
 what is passed as argument, or it yields `false` after printing a
 warning (using `@warn`).  Pretty harmless, but useful as a visual
 reference in your code.
