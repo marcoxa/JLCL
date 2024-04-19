@@ -22,17 +22,17 @@ You have a file called `TopModule.jl` containing the following code.
 ```julia
     ### TopModule.jl
 	
-	module TopModule
+    module TopModule
 	
     #= Some code here ... =#
 
-	include("some/folder/with/file.jl")
+    include("some/folder/with/file.jl")
 
-	#= ... more code here ... =#
+    #= ... more code here ... =#
 
-	end    # module TopModule
+    end    # module TopModule
 	
-	### TopModule.jl ends here.
+    ### TopModule.jl ends here.
 ```
 
 Then, file `some/folder/with/file.jl` contains code that will end
@@ -41,11 +41,11 @@ up in module `TopModule`; but now I can write the following.
 ```julia
     ### ... in file "file.jl"
 	
-	@in_module TopModule
+    @in_module TopModule
 	
-	#| ... actual code here ... |#
+    #| ... actual code here ... |#
 	
-	### file.jl ends here.
+    ### file.jl ends here.
 ```
 
 The macro `@in_module` simply yiels `true` if the "current" module is
