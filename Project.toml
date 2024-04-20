@@ -1,7 +1,7 @@
 name = "JLCL"
 uuid = "cc15090e-1e6b-4c7b-9eb6-d2b5646cebf8"
 authors = ["Marco Antoniotti"]
-version = "1.0.0-DEV"
+version = "1.0.1"
 
 [compat]
 julia = "1.9"
