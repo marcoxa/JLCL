@@ -1,6 +1,6 @@
 # JLCL
 
-Copyright (c) 2024 Marco Antoniotti, all rights reserved.
+Copyright (c) 2024 Marco Antoniotti, all rights reserved.  
 See the file COPYING for licensing information
 
 
